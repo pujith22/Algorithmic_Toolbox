@@ -14,8 +14,6 @@ content:
   - Greedy Algorithms
   - Divide-and-Conquer
   - Dynamic Programming
-additional_files:
-  - name: test_helper.py
 mode: Study
 submit_manually: true
 yaml_version: 2
