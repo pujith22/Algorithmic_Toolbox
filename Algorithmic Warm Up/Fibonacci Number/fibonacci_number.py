@@ -12,9 +12,14 @@ def fibonacci_number_naive(n):
 
 def fibonacci_number(n):
     assert 0 <= n <= 45
-
-    type here
-
+    if n<=1:
+        return n
+    first = 0
+    second = 1
+    for i in range(n-1):
+        second = first + second
+        first = second - first
+    return second
 
 if __name__ == '__main__':
     input_n = int(input())
