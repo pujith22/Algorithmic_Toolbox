@@ -7,14 +7,14 @@ files:
   - name: maximum_salary_unit_tests.py
     visible: true
     placeholders:
-      - offset: 253
-        length: 9
+      - offset: 241
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 253
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests.py
@@ -23,14 +23,14 @@ files:
   - name: maximum_salary.py
     visible: true
     placeholders:
-      - offset: 298
-        length: 9
+      - offset: 398
+        length: 135
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 298
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions

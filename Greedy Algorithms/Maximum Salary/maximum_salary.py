@@ -1,5 +1,5 @@
 # python3
-
+from functools import cmp_to_key
 from itertools import permutations
 
 
@@ -13,9 +13,14 @@ def largest_number_naive(numbers):
 
     return largest
 
-
+def compare(x,y):
+    return int(str(x)+str(y)) - int(str(y)+str(x))
 def largest_number(numbers):
-    type here
+    numbers.sort(key = cmp_to_key(compare), reverse=True)
+    sol = ""
+    for i in numbers:
+        sol = sol + str(i)
+    return int(sol)
 
 
 if __name__ == '__main__':

@@ -11,26 +11,26 @@ files:
     visible: true
     placeholders:
       - offset: 158
-        length: 9
+        length: 256
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 158
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: collecting_signatures_unit_tests.py
     visible: true
     placeholders:
-      - offset: 342
-        length: 9
+      - offset: 329
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 342
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/kAiGl/programming-assignment-3-greedy-algorithms/discussions

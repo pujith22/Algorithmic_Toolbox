@@ -7,27 +7,27 @@ files:
   - name: maximum_loot.py
     visible: true
     placeholders:
-      - offset: 318
-        length: 9
+      - offset: 844
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 318
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: maximum_loot_unit_tests.py
     visible: true
     placeholders:
-      - offset: 282
-        length: 9
+      - offset: 269
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 282
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests.py

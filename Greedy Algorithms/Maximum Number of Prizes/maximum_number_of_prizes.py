@@ -4,9 +4,14 @@
 def compute_optimal_summands(n):
     assert 1 <= n <= 10 ** 9
     summands = []
+    tot = 0
+    for i in range(1,10**9):
+        tot = tot+i
+        if tot>n:
+            break
+        summands.append(i)
 
-    type here
-
+    summands[-1] = summands[-1]+(n-sum(summands))
     return summands
 
 

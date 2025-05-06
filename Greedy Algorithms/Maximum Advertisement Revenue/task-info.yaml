@@ -8,35 +8,35 @@ files:
     visible: true
     placeholders:
       - offset: 846
-        length: 9
+        length: 168
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 846
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: maximum_ad_revenue_unit_tests.py
     visible: true
     placeholders:
-      - offset: 443
-        length: 9
+      - offset: 430
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 443
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 838
-        length: 9
+      - offset: 808
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 838
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests.py
