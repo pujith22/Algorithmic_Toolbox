@@ -6,8 +6,8 @@ from random import randint
 class ClosestPoints(unittest.TestCase):
     def test_small(self):
         for points in (
-            [Point(1, 0), Point(1, 1)],
-            type here
+            [[Point(1, 0), Point(1, 1)]]
+
         ):
             self.assertAlmostEqual(minimum_distance_squared(points),
                                    minimum_distance_squared_naive(points),
@@ -27,7 +27,7 @@ class ClosestPoints(unittest.TestCase):
                                        delta=1e-03)
 
     def test_large(self):
-        type here
+        return
 
 
 if __name__ == '__main__':

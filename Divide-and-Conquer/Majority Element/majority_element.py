@@ -12,7 +12,12 @@ def majority_element_naive(elements):
 
 def majority_element(elements):
     assert len(elements) <= 10 ** 5
-    type here
+    elements.sort()
+    count = 0
+    for i in elements:
+        if i==elements[len(elements)//2]:
+            count = count+1
+    return 1 if count>len(elements)//2 else 0
 
 
 if __name__ == '__main__':

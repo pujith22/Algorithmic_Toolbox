@@ -11,12 +11,14 @@ def points_cover_naive(starts, ends, points):
         for start, end in zip(starts, ends):
             if start <= point <= end:
                 count[index] += 1
-
     return count
-
-
 def points_cover(starts, ends, points):
-    type here
+    starts.sort()
+    ends.sort()
+    sol = []
+    for i in points:
+        sol.append(bisect_right(starts,i)-bisect_left(ends,i))
+    return sol
 
 
 if __name__ == '__main__':

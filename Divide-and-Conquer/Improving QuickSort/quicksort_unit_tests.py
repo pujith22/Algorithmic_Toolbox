@@ -7,8 +7,8 @@ class TestQuickSort(unittest.TestCase):
     def test_small(self):
         for array in [
             ([1, 2, 3]),
-            ([3, 2, 1]),
-            type here
+            ([3, 2, 1])
+
         ]:
             sorted_array = sorted(list(array))
             randomized_quick_sort(array, 0, len(array) - 1)
