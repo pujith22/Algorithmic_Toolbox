@@ -9,8 +9,8 @@ class EditDistance(unittest.TestCase):
             ("short", "ports", 3),
             ("editing", "distance", 5),
             ("a" * 100, "a" * 100, 0),
-            ("ab" * 50, "ba" * 50, 2),
-            type here
+            ("ab" * 50, "ba" * 50, 2)
+
         ):
             self.assertEqual(edit_distance(first_string, second_string), answer)
 

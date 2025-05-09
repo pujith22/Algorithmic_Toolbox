@@ -12,10 +12,21 @@ def change_naive(money):
 
     return min_coins
 
-
 def change(money):
-    type here
+    dp = [-1]*(money+1)
+    return change_helper(money,dp)
 
+def change_helper(money,dp):
+    if money==0:
+        return 0
+    if money<0:
+        return float("Inf")
+    if money==1 or money==3 or money==4:
+        return 1
+    if dp[money]!=-1:
+        return dp[money]
+    dp[money] = 1+min(min(change_helper(money-1,dp),change_helper(money-3,dp)),change_helper(money-4,dp))
+    return dp[money]
 
 if __name__ == '__main__':
     amount = int(input())

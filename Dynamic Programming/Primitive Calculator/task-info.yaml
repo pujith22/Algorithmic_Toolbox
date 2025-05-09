@@ -7,14 +7,14 @@ files:
   - name: primitive_calculator_unit_tests.py
     visible: true
     placeholders:
-      - offset: 186
-        length: 9
+      - offset: 185
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 186
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: tests.py
@@ -24,13 +24,13 @@ files:
     visible: true
     placeholders:
       - offset: 72
-        length: 9
+        length: 679
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 72
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/discussions

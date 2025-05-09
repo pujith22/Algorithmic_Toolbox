@@ -3,14 +3,14 @@ files:
   - name: edit_distance_unit_tests.py
     visible: true
     placeholders:
-      - offset: 364
-        length: 9
+      - offset: 351
+        length: 0
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 364
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
   - name: logo.png
@@ -23,14 +23,14 @@ files:
   - name: edit_distance.py
     visible: true
     placeholders:
-      - offset: 64
-        length: 9
+      - offset: 123
+        length: 85
         placeholder_text: type here
         initial_state:
           length: 9
           offset: 64
         initialized_from_dependency: false
-        selected: false
+        selected: true
         status: Unchecked
     learner_created: false
 feedback_link: https://www.coursera.org/learn/algorithmic-toolbox/programming/ekN4T/programming-assignment-5-dynamic-programming-1/discussions
